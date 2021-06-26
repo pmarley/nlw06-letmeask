@@ -7,8 +7,11 @@ import logoImg from '../assets/images/logo.svg'
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 
-import '../styles/auth.scss'
 import { database } from '../services/firebase';
+
+
+import '../styles/auth.scss'
+
 
 export function NewRoom() {
     const { user } = useAuth();

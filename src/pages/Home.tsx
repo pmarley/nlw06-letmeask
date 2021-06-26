@@ -9,9 +9,11 @@ import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 
 
-import '../styles/auth.scss';
 import { FormEvent, useState } from 'react';
 import { database } from '../services/firebase';
+
+import '../styles/auth.scss';
+
 
 
 
